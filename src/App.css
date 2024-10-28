@@ -1,38 +1,70 @@
-.App {
+/* App.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button.clear-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-left: 10px;
+}
+
+button.clear-button:hover {
+  background-color: #0056b3;
+}
+
+.form-control,
+.form-check-label {
+  margin-bottom: 10px;
+}
+
+button.add-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+button.add-button:hover {
+  background-color: #0056b3;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  vertical-align: middle;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.badge {
+  padding: 10px 20px;
+  font-size: 0.9em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.badge-success {
+  background-color: #00cfe8;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.badge-danger {
+  background-color: #f64e60;
+}
+
+button.delete-button {
+  background-color: #f64e60;
   color: white;
+  border: none;
+  padding: 5px 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.delete-button:hover {
+  background-color: #d63031;
 }
